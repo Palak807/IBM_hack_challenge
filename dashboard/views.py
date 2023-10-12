@@ -14,3 +14,6 @@ def VISION(request):
 
 def TEAM(request):
     return render(request, 'team.html')
+
+def LOGIN(request):
+    return render(request, 'login.html')
